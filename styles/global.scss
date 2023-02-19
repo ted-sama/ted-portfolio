@@ -1,0 +1,24 @@
+.section-header {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Nunito";
+  margin-bottom: 1.6rem;
+}
+
+::selection {
+  background-color: #ab8ec2;
+  color: #ffffff;
+}
+
+.cursor {
+  background-color: rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 32px;
+  border: rgb(255, 255, 255) 2px solid;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}

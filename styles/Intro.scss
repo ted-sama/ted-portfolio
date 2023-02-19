@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
+
+.intro {
+  background-color: rgb(18, 17, 19);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 20rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.intro-cursor {
+  animation: blinker 1s linear infinite;
+  font-size: 6rem;
+  color: #8223f0;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.intro-typist {
+  font-size: 6rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+
+.intro-about {
+  font-size: 1.6rem;
+  font-family: "Satoshi";
+  font-weight: 500;
+  color: rgb(199, 214, 226);
+  margin: 0;
+}
+
+.typewriter-wrapper {
+  width: fit-content;
+}

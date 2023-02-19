@@ -1,0 +1,44 @@
+.navHeader {
+  background-color: rgba(18, 17, 19, 0.541);
+  backdrop-filter: blur(9px);
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.2rem 2rem;
+  align-items: center;
+  border-bottom: 1px solid #ffffff1f;
+
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      font-family: "Satoshi";
+      list-style: none;
+      margin: 0 1.2rem;
+
+      a {
+        transition: all 0.25s ease;
+
+        &:hover {
+          cursor: pointer;
+          color: #8223f0;
+        }
+      }
+    }
+  }
+}

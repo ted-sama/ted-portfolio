@@ -1,0 +1,53 @@
+.project-list {
+  overflow-y: auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.project-item {
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    transform: translateX(10px);
+    cursor: pointer;
+  }
+}
+
+.project-title {
+  font-family: "Nunito";
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+.project-year {
+  font-family: "Nunito";
+  font-size: 1rem;
+  color: #ffffffb4;
+  margin-top: 0;
+}
+
+.project-tag {
+  font-weight: 600;
+  color: #ffffffb4;
+
+  ul {
+    display: flex;
+    gap: 16px;
+  }
+
+  li {
+    padding: 8px 16px;
+    border: 2px solid #ffffff80;
+    border-radius: 8px;
+  }
+}
