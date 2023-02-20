@@ -1,9 +1,17 @@
+//variables
+$python: #3776ab;
+$react: #61dafb;
+$node: #339933;
+$js: #f7df1e;
+$css: #1572b6;
+$html: #e34f26;
+
 .about {
   background-color: rgb(18, 17, 19);
   display: flex;
   padding-left: 15rem;
   padding-right: 15rem;
-  height: 800px;
+  height: 900px;
 }
 
 .section-header {
@@ -40,7 +48,50 @@
   }
 }
 
-.links {
+.about-techs {
+  font-weight: 500;
+  color: #ffffff;
+
+  ul {
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+  }
+
+  li {
+    padding: 8px 16px;
+    border: 2px solid;
+    border-radius: 30px;
+
+    &.py {
+      border-color: $python;
+    }
+
+    &.react {
+      border-color: $react;
+    }
+
+    &.node {
+      border-color: $node;
+    }
+
+    &.js {
+      border-color: $js;
+    }
+
+    &.css {
+      border-color: $css;
+    }
+
+    &.html {
+      border-color: $html;
+    }
+  }
+}
+
+.about-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,6 +112,7 @@
 
     &:hover {
       background-color: #541899;
+      cursor: pointer;
     }
   }
 }

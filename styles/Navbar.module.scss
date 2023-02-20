@@ -34,11 +34,25 @@
       a {
         transition: all 0.25s ease;
 
+        transform: translateY(-50px);
+        animation: drop-fade 0.5s ease forwards;
+
         &:hover {
           cursor: pointer;
           color: #8223f0;
         }
       }
     }
+  }
+}
+
+@keyframes drop-fade {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

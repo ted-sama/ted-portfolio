@@ -3,6 +3,7 @@ import "../styles/global.scss";
 import "../styles/Intro.scss";
 import "../styles/About.scss";
 import "../styles/Work.scss";
+import "../styles/Contact.scss";
 import "../styles/ProjectList.scss";
 
 function MyApp({ Component, pageProps }) {
