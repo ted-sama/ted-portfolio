@@ -15,7 +15,8 @@ const Navbar = ({ setCursorStyle }) => {
           duration={450}
         >
           <div className="nav-logo">
-            <span>LOGO</span>
+            <span className="t">T</span>
+            <span className="dot">.</span>
           </div>
         </Link>
         <div className="nav-links">

@@ -26,3 +26,16 @@ body {
   z-index: 1000;
   pointer-events: none;
 }
+
+.nav-logo {
+  font-family: "Nunito";
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  & .t {
+    color: #8223f0;
+  }
+}

@@ -67,6 +67,11 @@ const Work = ({ setCursorStyle }) => {
       <div className="work-left">
         <div className="work-img">
           <img
+            src="/static/3d-fluency-robot.png"
+            alt="chooeicha-preview"
+            className={`${hoveredProject === null ? "fade-in" : "fade-out"}`}
+          />
+          <img
             src="/static/chooeicha.png"
             alt="chooeicha-preview"
             className={`${
