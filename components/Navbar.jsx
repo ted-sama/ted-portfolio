@@ -6,19 +6,17 @@ const Navbar = ({ setCursorStyle }) => {
   return (
     <header className={styles.navHeader}>
       <nav className={styles.navbar}>
-        <Link
+        <a
+          href="https://ted-sama.netlify.app/"
           onMouseEnter={() => setCursorStyle("pointer")}
           onMouseLeave={() => setCursorStyle("default")}
-          smooth
-          spy
-          to="intro"
-          duration={450}
+          rel="home"
         >
           <div className="nav-logo">
             <span className="t">T</span>
             <span className="dot">.</span>
           </div>
-        </Link>
+        </a>
         <div className="nav-links">
           <ul>
             <li>
